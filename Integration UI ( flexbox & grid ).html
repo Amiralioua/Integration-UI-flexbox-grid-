@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Integration UI ( flexbox & grid ) </title>
+</head>
+
+<style>
+
+	*{margin: 2px; padding: 2px;}
+
+	.nave{
+		display: flex;
+		justify-content: space-between;
+		padding:0px 100px;
+		align-items: center;} 
+
+	   .link{
+		  display: flex;
+      list-style: none;
+      gap: 10px;
+      font-family: Nexa Light  ;}	
+     .blog{font-family: Nexa Bold;}
+
+     .article1{
+     display: flex;
+     flex-direction: row;
+     font-family: Nexa Light;
+     padding: 0px 100px;}
+
+     .b1{
+     display: flex;
+     flex-direction: column;
+     height: 300px;}	
+
+     .bruno{
+     display: flex;
+     flex-direction: row;
+     align-items: center;}  
+
+     .article2{
+     display: flex;
+     flex-direction: row;
+     padding: 0px 100px;
+     font-family: Nexa Light;
+     gap: 30px;}
+
+     .img1{width: 100%}
+     .img3{width: 100%}
+     .img4{width: 100%}
+      img{100%}
+
+     .logo{font-family: Pacifico;
+     font-size: 30px;}
+     .date{font-size: 15px;color: gray;}
+     .date2{font-size: 15px;color: gray;}
+     .date3{font-size: 15px;color: gray;}
+     .peopol{font-size: 20px;color: gray;}
+     .every{font-size: 20px;color: gray;}
+     .hybrid{font-size: 30px;}
+     .from{font-size: 30px;}
+     .there{font-size: 20px;color: gray;}
+     .bloc1{width: 480px;}
+     .bloc2{width: 480px;}
+     .button{border: 0;
+      line-height: 2.3 ;
+      padding: 0 20px;
+      font-size: 1rem;
+      text-align: center;
+      color: #FFFF;
+      border-radius: 5px;
+      background-color: rgba(255, 120, 98, 1);}
+
+    </style>
+
+
+    <body>
+           <! -- nave -->
+
+      <div class="nave">
+
+        <div class="logo">Pixelmatters</div>
+
+        <ul  class="link">
+            <li><a href="Work"><font color="black">Work</font></a></li>
+            <li><a href="Approach"><font color="black">Approach</font></a></li> 
+            <li><a href="Culture"><font color="black">Culture </font></a></li> 
+            <li><a href="Careers"><font color="black">Careers </font></a></li>  
+            <li><a class="blog" href="Blog"><font color="black"> Blog   </font></a></li>
+            <button class="button" type="button">Get in touch</button> 
+        </ul>
+
+      </div>
+      <br>
+          <! -- article1 -->
+
+      <div class="article1">
+
+        <img class="img1" src="1.jpg">
+        <div class="b1">
+
+            <div class="date"><b>PRODUCT.</b> July 24, 2020</div>
+
+            <p class="inter">
+            <b>Interview - What it's like <br>
+               to work remotely in big-<br>
+               sized product<br>
+               development?</b>
+            </p>
+            <p class="peopol">
+               People say that developing products isn't<br>
+               easy. Neither it is to build long-distance <br>
+               relationships. But, how about doing both,<br>
+               simultaneously?
+            </p>
+
+            <div class="bruno">
+               <img class="img2" src="4.jpg">
+               <p><b>Bruno Teixeira</b> <br> Lead Product Owner</p>
+            </div>
+
+        </div>
+
+      </div>
+      <br>
+
+          <! -- article2 -->
+
+      <div class="article2">
+
+        <div class="bloc1">
+            <img class="img3" src="2.jpg">
+            <div class="date2">
+
+              DEVELOPMENT. July 2, 2020
+
+            </div>
+
+            <p class="hybrid">
+
+             <b>Hybrid vs. Native - Here is how you can <br>
+             choose one over the other...</b>
+
+            </p>
+
+            <p class="there">
+             There is no denying it, hybrid mobile development is booming and<br>
+             becoming the main option when considering developing a mobile <br>
+             application due to the lower costs and faster development time.
+            </p>
+
+        </div>
+
+        <div class="bloc2">
+
+            <img class="img4" src="3.jpg">
+
+            <div class="date3">
+             DEVELOPMENT. July 2, 2020
+           </div>
+
+           <p class="from">
+             <b>From monolithic to headless: how and why you<br>
+             should adapt your WordPress stack</b>
+           </p>
+
+           <p class="every">
+             Every dynamic website consists of two main parts: the backend and <br>
+             the frontend. The backend, which in marketing websites is commonly a<br>
+             Content Management System (CMS), allows the website owners....
+           </p>
+
+        </div>
+
+      </div>
+
+</body>
+</html>
